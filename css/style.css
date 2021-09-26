@@ -64,3 +64,6 @@ h1 {
   animation-duration: 2s;
   animation-name: aparecer;
   animation-iteration-count: infinite; }
+
+.card-body {
+  background-color: rgba(148, 0, 211, 0.37); }
