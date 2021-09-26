@@ -1,0 +1,66 @@
+body {
+  background-color: black; }
+
+nav a {
+  text-decoration: none;
+  color: aliceblue; }
+
+nav a:hover {
+  background-color: rgba(137, 43, 226, 0.205);
+  color: rgba(240, 248, 255, 0.836);
+  padding: 8px; }
+
+footer a {
+  color: aliceblue;
+  font-size: 26px;
+  padding: 0 8px; }
+
+.videoGaleria {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90; }
+
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  padding: 15px;
+  text-align: center;
+  color: rgba(240, 248, 255, 0.877);
+  font-size: 24px; }
+
+.bio {
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  width: 70%; }
+
+.cita {
+  background-color: rgba(164, 99, 224, 0.5); }
+
+.estacion {
+  background-color: rgba(208, 180, 235, 0.5); }
+
+.form-control {
+  background-color: rgba(206, 180, 231, 0.219); }
+
+.carousel-inner {
+  margin: 20px 20px;
+  width: 600px;
+  height: 600px; }
+
+.carousel {
+  display: flex;
+  justify-content: center; }
+
+.styleNewVideo {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 25px;
+  padding: 50px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
