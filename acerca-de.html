@@ -14,24 +14,46 @@
     <title>CEAENEM</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-dark" id="barra">
-      <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">
-          <img
-            src="imagenes/ceaenem-logoblanco.png"
-            alt="logoNavegacion"
-            width="30"
-            height="24"
-            class="d-inline-block align-text-top container-fluid"
-          />
-          <a href="./index.html">Inicio</a>
-          <a href="./galeria.html">Galería</a>
-          <a href="./agenda.html">Agenda</a>
-          <a href="./acerca-de.html">Acerca de</a>
-          <a href="./contacto.html">Contacto</a>
-        </a>
+    <div class="container">
+      <div class="conteiner">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a href="/index.html" class="navbar-brand">
+          <img src="./imagenes/ceaenem-logoblanco.png" alt="Ceaenem Logo" width="200" height="32"
+          class="d-inline-block align-top">
+          </a>
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-lable="Toggle navegation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto text-center">
+              <li>
+                <a href="./index.html" class="nav-link">Inicio</a>
+              </li>
+              <li>
+                <a href="./galeria.html" class="nav-link">Galería</a>
+              </li>
+              <li>
+                <a href="./agenda.html" class="nav-link">Agenda</a>
+              </li>
+              <li>
+                <a href="./acerca-de.html" class="nav-link">Acerca de</a>
+              </li>
+              <li>
+                <a href="./contacto.html" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
 
     <main>
       <div class="logoPrincipal animate__animated animate__backInDown">
@@ -72,6 +94,7 @@
     <a href="https://soundcloud.com/ceaenem"><i class="bi bi-volume-up"></i></a>
       </div>
     </footer>
+  </div>
         
             <script src="./bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
           </body>
