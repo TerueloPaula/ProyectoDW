@@ -2,7 +2,8 @@
 @import "nav";
 @import "footer";
 @import "iframe";
-
+@import "galeria";
+/*Font Family*/
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -11,8 +12,7 @@ h1{
     padding: 15px;
     text-align: center;
     color: rgba(240, 248, 255, 0.877);
-    font-size: 24px;
-    
+    font-size: 24px;    
     }
 
     .bio{
@@ -58,13 +58,4 @@ h1{
 
 .card-body{
     background-color: rgba(148, 0, 211, 0.411);
-}
-
-@media (min-width: 576px){
-
-
-}
-
-@media (min-width: 576px){
-
 }
