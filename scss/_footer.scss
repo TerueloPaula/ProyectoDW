@@ -1,5 +1,22 @@
 footer a{
-    color: aliceblue;
+    color: rgba(255, 255, 255, 0.548);
     font-size: 26px;
     padding: 0 8px;
 }
+
+footer a:hover{
+    color: rgba(255, 255, 255, 0.836);
+    font-style: white ;
+
+}
+
+.glassFooter{
+    color: white;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(51, 50, 50, 0.075),
+        rgba(141, 137, 137, 0.068)
+    );
+}
+

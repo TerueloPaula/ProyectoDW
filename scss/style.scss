@@ -24,15 +24,16 @@ h1{
     }
     
     .cita{
-        background-color: rgba(164, 99, 224, 0.5);
+        color: rgb(206, 112, 230);
     }
     
     .estacion{
-        background-color: rgba(208, 180, 235, 0.5);
+        color: rgb(206, 112, 230);
+        margin-bottom: 40px;
     }
     
     .form-control{
-        background-color: rgba(206, 180, 231, 0.219);
+        background-color: rgba(234, 226, 241, 0.911);
     }
     
     .carousel-inner{
@@ -57,5 +58,15 @@ h1{
     }
 
 .card-body{
-    background-color: rgba(148, 0, 211, 0.411);
+    background-color: rgba(162, 121, 182, 0.158);
 }
+
+.videoPpal{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+

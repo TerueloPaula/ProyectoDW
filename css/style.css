@@ -3,24 +3,37 @@ body {
 
 nav a {
   text-decoration: none;
-  color: aliceblue; }
+  color: white; }
 
 nav a:hover {
-  background-color: rgba(137, 43, 226, 0.205);
-  color: rgba(240, 248, 255, 0.836);
-  padding: 8px; }
+  color: rgba(255, 255, 255, 0.836);
+  font-style: white;
+  font-weight: bold; }
+
+.glass {
+  color: white;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(65, 62, 62, 0.178), rgba(141, 137, 137, 0.24)); }
 
 footer a {
-  color: aliceblue;
+  color: rgba(255, 255, 255, 0.548);
   font-size: 26px;
   padding: 0 8px; }
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.836);
+  font-style: white; }
+
+.glassFooter {
+  color: white;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(51, 50, 50, 0.075), rgba(141, 137, 137, 0.068)); }
 
 .videoGaleria {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-  width: 90; }
+  margin-bottom: 20px; }
 
 .galeria img {
   width: 100%; }
@@ -49,13 +62,14 @@ h1 {
   width: 70%; }
 
 .cita {
-  background-color: rgba(164, 99, 224, 0.5); }
+  color: #ce70e6; }
 
 .estacion {
-  background-color: rgba(208, 180, 235, 0.5); }
+  color: #ce70e6;
+  margin-bottom: 40px; }
 
 .form-control {
-  background-color: rgba(206, 180, 231, 0.219); }
+  background-color: rgba(234, 226, 241, 0.911); }
 
 .carousel-inner {
   margin: 20px 20px;
@@ -76,4 +90,10 @@ h1 {
   animation-iteration-count: infinite; }
 
 .card-body {
-  background-color: rgba(148, 0, 211, 0.411); }
+  background-color: rgba(162, 121, 182, 0.158); }
+
+.videoPpal {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px; }

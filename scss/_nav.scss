@@ -1,11 +1,21 @@
 nav a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+
 }
 
 nav a:hover{
-    background-color: rgba(137, 43, 226, 0.205);
-    color: rgba(240, 248, 255, 0.836);
-    padding: 8px;
+    color: rgba(255, 255, 255, 0.836);
+    font-style: white ;
+    font-weight: bold;
+}
 
+.glass{
+    color: white;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(65, 62, 62, 0.178),
+        rgba(141, 137, 137, 0.24)
+    );
 }
